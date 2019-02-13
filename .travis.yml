@@ -1,8 +1,10 @@
-language:c
-sudo:false#onlyforfasterbuilds
-compiler:
--clang
--gcc
-script:
--gcc -o test wiper_system.c   //wecanusegccinsteadofclangtoo
--./wiper_system
+matrix:
+  include:
+  -language:c
+    sudo:false#onlyforfasterbuilds
+      compiler:
+        -clang
+        -gcc
+      script:
+        -gcc -o test wiper_system.c   //wecanusegccinsteadofclangtoo
+        -./wiper_system
