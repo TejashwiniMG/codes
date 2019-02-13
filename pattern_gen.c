@@ -19,7 +19,7 @@ int main()
         }
        printf("\n");
 
-    }
+    }// entering data in specific format
 
 
 
@@ -65,9 +65,9 @@ int *generate()
             *(*(p+i)+j)=i;
         }
 
-    }
+    } 
    
 
     return p;
-}
+} // generating pattern and returning it to main
 
