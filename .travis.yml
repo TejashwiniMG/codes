@@ -4,5 +4,5 @@ compiler:
 -clang
 -gcc
 script:
--gcc -o wiper_system.c   //wecanusegccinsteadofclangtoo
+-gcc -o test wiper_system.c   //wecanusegccinsteadofclangtoo
 -./test
