@@ -1,0 +1,8 @@
+language:c
+sudo:false#onlyforfasterbuilds
+compiler:
+-clang
+-gcc
+script:
+-gcc -o wiper_system.c   //wecanusegccinsteadofclangtoo
+-./test
